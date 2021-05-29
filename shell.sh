@@ -3,6 +3,6 @@ do
    echo "Welcome $i times" > $i.txt
    git add . && git commit -s -m "Welcome $i times" && git push
    sleep 1s
-   rf -rf $i.txt
+   rf -rf "$i.txt"
    echo "Welcome $i times done...................."
 done
