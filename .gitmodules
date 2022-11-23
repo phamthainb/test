@@ -1,2 +1,3 @@
-[submodule "cinch"]
-	url = https://github.com/phamthainb/Mindx_CIJS78
+[submodule "abc"]
+	path = include/foo
+	url = git://github.com/phamthainb/Mindx_CIJS78.git
